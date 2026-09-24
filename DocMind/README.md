@@ -1,10 +1,10 @@
-# DocMind — free month demo
+# DocMind 
 
 Next.js frontend + FastAPI PDF RAG backend. The hosted backend is designed for Render's 512 MB free service: it uses lightweight TF-IDF retrieval and Groq generation. The original Colab notebook uses SBERT and Chroma; it remains a separate prototype. **Do not describe the hosted version as SBERT or Chroma.**
 
-## 1. Push to GitHub from Windows
+## 
 
-Extract this ZIP. Open the **DocMind_GitHub_Deploy** folder in VS Code (the folder with `frontend`, `backend` and this README). Create a new **empty** GitHub repository called `docmind-rag` at https://github.com/new. Do not select “Add a README”, `.gitignore`, or license there. Then in the VS Code terminal:
+Extract this ZIP. Open the **DocMind_** folder in VS Code (the folder with `frontend`, `backend` and this README). Create a new **empty** GitHub repository called `docmind-rag` at https://github.com/new. Do not select “Add a README”, `.gitignore`, or license there. Then in the VS Code terminal:
 
 ```powershell
 git init
@@ -16,7 +16,7 @@ git remote add origin https://github.com/YOUR_USERNAME/docmind-rag.git
 git push -u origin main
 ```
 
-Replace `YOUR_USERNAME` with your GitHub username. If Git asks you to sign in, complete its browser login. Before committing, `git status` must **not** show `.env.local`, PDF files, Groq keys, ngrok tokens, `node_modules`, or `.next`. The root `.gitignore` excludes them. Never upload your key in a notebook with saved outputs.
+
 
 ## 2. Deploy backend on Render Free
 
