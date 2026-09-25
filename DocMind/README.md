@@ -1,10 +1,7 @@
 # DocMind 
 
-Next.js frontend + FastAPI PDF RAG backend. The hosted backend is designed for Render's 512 MB free service: it uses lightweight TF-IDF retrieval and Groq generation. The original Colab notebook uses SBERT and Chroma; it remains a separate prototype. **Do not describe the hosted version as SBERT or Chroma.**
+Next.js frontend + FastAPI PDF RAG backend. The hosted backend is designed for Render's 512 MB free service: it uses lightweight TF-IDF retrieval and Groq generation. The original Colab notebook uses SBERT and Chroma; it remains a separate prototype. 
 
-## 
-
-Extract this ZIP. Open the **DocMind_** folder in VS Code (the folder with `frontend`, `backend` and this README). Create a new **empty** GitHub repository called `docmind-rag` at https://github.com/new. Do not select “Add a README”, `.gitignore`, or license there. Then in the VS Code terminal:
 
 ```powershell
 git init
